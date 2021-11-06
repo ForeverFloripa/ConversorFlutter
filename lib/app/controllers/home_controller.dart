@@ -29,6 +29,7 @@ class HomeController {
     } else if (fromCurrency.name == 'Biticoin') {
       returnValue = value * toCurrency.bitcoin;
     }
+
     fromText.text = returnValue.toStringAsFixed(2);
   }
 }
