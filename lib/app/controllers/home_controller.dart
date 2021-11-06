@@ -1,6 +1,9 @@
 import 'package:conversor/app/models/currency_model.dart';
 import 'package:flutter/cupertino.dart';
 
+
+
+
 class HomeController {
   List<CurrencyModel> currencies;
 
